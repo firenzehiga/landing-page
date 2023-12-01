@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>SaintAvenue - Accessories Solutions Website</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+		<!--end::Fonts-->
+		<!--begin::Page Vendors Styles(used by this page)-->
+		<link href="assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
+		<!--end::Page Vendors Styles-->
+		<!--begin::Global Theme Styles(used by all pages)-->
+		<!--end::Global Theme Styles-->
+		<!--begin::Layout Themes(used by all pages)-->
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+		<link href="assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="assets/bootstrap-icon1.4.1/font.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body style="background-image: url('assets/media/bg/bg-3.jpg');">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <div class="container-fluid bg-blue">
+            <div class="container">
+                <nav class="navbar navbar-dark navbar-expand-lg py-0">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="text-white fw-bold d-block">Saint<span class="text-secondary">Avenue</span> </h1>
+                    </a>
+                    <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                            <a href="index.html" class="nav-item nav-link active text-secondary">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <a href="offer.html" class="nav-item nav-link">Offer</a>
+                            <a href="product.html" class="nav-item nav-link">Product</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                                <div class="dropdown-menu rounded">
+                                    <a href="branch.html" class="dropdown-item">Our Branch</a>
+                                    <a href="team.html" class="dropdown-item">Our Team</a>
+                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid px-0">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="img/slider/carousel-3.jpg" class="img-fluid" alt="First slide">
+                        <div class="carousel-caption">
+                            <div class="container carousel-content">
+                                <h6 class="text-secondary h4 animated fadeInUp">Best Accessories Solutions</h6>
+                                <h1 class="text-white display-1 mb-4 animated fadeInRight">An Innovative Accessories Place</h1>
+                                <p class="mb-4 text-white fs-5 animated fadeInDown">Our specialty lies in quality accessories with a personal touch. Find your signature today.</p>
+                                <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button></a>
+                                <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-blue rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slider/carousel-4.jpg" class="img-fluid" alt="Second slide">
+                        <div class="carousel-caption">
+                            <div class="container carousel-content">
+                                <h6 class="text-secondary h4 animated fadeInUp">Best Accessories Solutions</h6>
+                                <h1 class="text-white display-1 mb-4 animated fadeInLeft">The Quality That You Really Need!</h1>
+                                <p class="mb-4 text-white fs-5 animated fadeInDown">We bring uniqueness to every accessory, making SaintAvenue an exceptional choice to highlight your personal style. Our hallmark lies in the creative touches and details that set each product apart.</p>
+                                <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button></a>
+                                <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn dark-blue rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- About Start -->
+        <div class="container-fluid py-5 my-5">
+            <div class="container pt-5">
+                <div class="row g-5">
+                    <div class="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
+                        <div class="h-100 position-relative">
+                            <img src="img/product/27.jpg" class="img-fluid w-75 rounded" alt="" style="margin-bottom: 25%;">
+                            <div class="position-absolute w-75" style="top: 25%; left: 25%;">
+                                <img src="img/product/11.jpg" class="img-fluid w-100 rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
+                        <h1 class="text-primary">About Us</h1>
+                        <h3 class="mb-4">Innovative Accessories Place for unique and characterful accessories. Exceptional style, only here.</h3>
+                        <p>Welcome to SaintAvenue, a place where beauty meets style. We are a preferred accessories provider who understands that every detail can add a special touch to your look. With our love and dedication to fashion, we devote ourselves to bringing you the finest collection of accessories from around the world. At SaintAvenue, we are committed to fulfilling your desire for unforgettable style. Discover your uniqueness with our inspiring accessories and enjoy an unforgettable fashion journey with us.</p>
+                        <p class="mb-4">We, are not just trend chasers, but also style creators. Our passionate team has a vision to create a fulfilling shopping experience, where every customer is part of our story. We invite you to explore our collection, find accessories that reflect your personality, and celebrate the beauty in every detail. Thank you for choosing [Store Name] as your fashion destination.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Promo Start -->
+        <div class="container-fluid services py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Our Services</h5>
+                    <h1>Services Built Specifically For Your Business</h1>
+                </div>
+                <div class="card" style="overflow-x:auto;">
+                    <!--begin: Datatable-->
+                    <table class="table table- table-hover" id="kt_datatable" style="margin-top: 13px !important">
+                            <tr align="center">
+                                <th>No</th>
+                                <th>Paket</th>
+                                <th>Harga</th>
+                                <th>Waktu</th>
+                                <th>Syarat & Ketentuan</th>
+                                <th width="300">Deskripsi</th>                             
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Glamour Special</td>
+                                <td>$99.99</td>
+                                <td>1 - 15 Januari 2023</td>
+                                <td>Belanja minimal $150</td>
+                                <td>Nikmati diskon eksklusif pada aksesoris fashion terpilih dalam paket ini.</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Spring Style Bundle</td>
+                                <td>$79.99</td>
+                                <td>10 - 25 Maret 2023</td>
+                                <td>Beli 2 item, dapatkan diskon tambahan</td>
+                                <td>Upgrade gaya Anda dengan koleksi</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Holiday Extravaganza</td>
+                                <td>$149.99</td>
+                                <td>5 - 20 Februari 2023</td>
+                                <td>Tidak Ada Syarat</td>
+                                <td>Jadilah pionir mode dengan kombinasi</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Chic Essentials</td>
+                                <td>$69.99</td>
+                                <td>15 - 30 April 2023</td>
+                                <td>Beli 3 item, dapatkan diskon 20%</td>
+                                <td>Perbarui koleksi aksesori dasar Anda</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Trendsetter Combo</td>
+                                <td>$129.99</td>
+                                <td>5 - 20 Februari 2023</td>
+                                <td>Belanja minimal $200</td>
+                                <td>Perbarui koleksi aksesori dasar Anda
+                                    dengan paket hemat ini.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!--end: Datatable-->
+                </div>
+            </div>
+        </div>
+        <!-- Promo End -->
+
+        <!-- Product Start -->
+        <div class="container-fluid project py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h2 class="text-primary">Our Product</h2>
+                    <h1>Our Newly Launched Products</h1>
+                </div>
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay=".3s">
+                        <div class="project-item blog-item position-relative bg-light rounded shadow-lg">
+                            <div class="project-img ">
+                                <img src="img/product/11.png" class="img-fluid w-85 rounded" alt="">                               
+                                <div class="project-content">
+                                    <a href="#" class="me-2 btn btn-lblue text-white">Details</a>
+                                    <a href="#" class="me-2 btn btn-sky text-white"><i class="fas fa-cart-plus"></i> Buy</a>     
+                                </div>
+                            </div>
+                            <div class="blog-content text-center font-bold py-2" style="margin-top: -15px;">
+                                <span class="py-2 text-dark font-lg">Running Shoes</span>
+                                <span class="py-2 block "><i class="bi-tag"> Rp.599.000</i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay=".3s">
+                        <div class="project-item blog-item position-relative bg-light rounded shadow-lg">
+                            <div class="project-img ">
+                                <img src="img/product/18.png" class="img-fluid w-85 rounded" alt="">                               
+                                <div class="project-content">
+                                    <a href="#" class="me-2 btn btn-lblue text-white">Details</a>
+                                    <a href="#" class="me-2 btn btn-sky text-white"><i class="fas fa-cart-plus"></i> Buy</a>     
+                                </div>
+                            </div>
+                            <div class="blog-content text-center font-bold py-2" style="margin-top: -15px;">
+                                <span class="py-2 text-dark font-lg">Lamp</span>
+                                <span class="py-2 block "><i class="bi-tag"> Rp.99.000</i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay=".3s">
+                        <div class="project-item blog-item position-relative bg-light rounded shadow-lg">
+                            <div class="project-img ">
+                                <img src="img/product/1.png" class="img-fluid w-85 rounded" alt="">                               
+                                <div class="project-content">
+                                    <a href="#" class="me-2 btn btn-lblue text-white">Details</a>
+                                    <a href="#" class="me-2 btn btn-sky text-white"><i class="fas fa-cart-plus"></i> Buy</a>     
+                                </div>
+                            </div>
+                            <div class="blog-content text-center font-bold py-2" style="margin-top: -15px;">
+                                <span class="py-2 text-dark font-lg">Smart Watch</span>
+                                <span class="py-2 block "><i class="bi-tag"> Rp.299.000</i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay=".3s">
+                        <div class="project-item blog-item position-relative bg-light rounded shadow-lg">
+                            <div class="project-img ">
+                                <img src="img/product/19.png" class="img-fluid w-85 rounded" alt="">                               
+                                <div class="project-content">
+                                    <a href="#" class="me-2 btn btn-lblue text-white">Details</a>
+                                    <a href="#" class="me-2 btn btn-sky text-white"><i class="fas fa-cart-plus"></i> Buy</a>     
+                                </div>
+                            </div>
+                            <div class="blog-content text-center font-bold py-2" style="margin-top: -15px;">
+                                <span class="py-2 text-dark font-lg">Tea Pot</span>
+                                <span class="py-2 block "><i class="bi-tag"> Rp.99.000</i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay=".3s">
+                        <div class="project-item blog-item position-relative bg-light rounded shadow-lg">
+                            <div class="project-img ">
+                                <img src="img/product/15.png" class="img-fluid w-85 rounded" alt="">                               
+                                <div class="project-content">
+                                    <a href="#" class="me-2 btn btn-lblue text-white">Details</a>
+                                    <a href="#" class="me-2 btn btn-sky text-white"><i class="fas fa-cart-plus"></i> Buy</a>     
+                                </div>
+                            </div>
+                            <div class="blog-content text-center font-bold py-2" style="margin-top: -15px;">
+                                <span class="py-2 text-dark font-lg">Headphone</span>
+                                <span class="py-2 block "><i class="bi-tag"> Rp.199.000</i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay=".3s">
+                        <div class="project-item blog-item position-relative bg-light rounded shadow-lg">
+                            <div class="project-img ">
+                                <img src="img/product/2.png" class="img-fluid w-85 rounded" alt="">                               
+                                <div class="project-content">
+                                    <a href="#" class="me-2 btn btn-lblue text-white">Details</a>
+                                    <a href="#" class="me-2 btn btn-sky text-white"><i class="fas fa-cart-plus"></i> Buy</a>     
+                                </div>
+                            </div>
+                            <div class="blog-content text-center font-bold py-2" style="margin-top: -15px;">
+                                <span class="py-2 text-dark font-lg">Earphone</span>
+                                <span class="py-2 block "><i class="bi-tag"> Rp.99.000</i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay=".3s">
+                        <div class="project-item blog-item position-relative bg-light rounded shadow-lg">
+                            <div class="project-img ">
+                                <img src="img/product/21.png" class="img-fluid w-85 rounded" alt="">                               
+                                <div class="project-content">
+                                    <a href="#" class="me-2 btn btn-lblue text-white">Details</a>
+                                    <a href="#" class="me-2 btn btn-sky text-white"><i class="fas fa-cart-plus"></i> Buy</a>     
+                                </div>
+                            </div>
+                            <div class="blog-content text-center font-bold py-2" style="margin-top: -15px;">
+                                <span class="py-2 text-dark font-lg">Airpod Pro</span>
+                                <span class="py-2 block "><i class="bi-tag"> Rp.399.000</i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay=".3s">
+                        <div class="project-item blog-item position-relative bg-light rounded shadow-lg">
+                            <div class="project-img ">
+                                <img src="img/product/17.png" class="img-fluid w-85 rounded" alt="">                               
+                                <div class="project-content">
+                                    <a href="#" class="me-2 btn btn-lblue text-white">Details</a>
+                                    <a href="#" class="me-2 btn btn-sky text-white"><i class="fas fa-cart-plus"></i> Buy</a>     
+                                </div>
+                            </div>
+                            <div class="blog-content text-center font-bold py-2" style="margin-top: -15px;">
+                                <span class="py-2 text-dark font-lg">Bowl</span>
+                                <span class="py-2 block "><i class="bi-tag"> Rp.49.000</i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Product End -->
+
+
+        <!-- Branch Start -->
+        <div class="container-fluid Branch py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Our Branch</h5>
+                    <h1>Our Established Store</h1>
+                </div>
+                <div class="row g-5 justify-content-center">
+                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="blog-item position-relative bg-light rounded shadow-lg">
+                            <img src="img/branch/img-1.jpg" class="img-fluid w-100 rounded-top" alt="">
+                            <span class="position-absolute px-3 py-2 bg-blue text-white rounded font-bold" style="top: -28px; right: 20px;">Main Branch</span>
+                            <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
+                            </div>
+                            <div class="blog-content text-center position-relative px-3 font-bold py-2" style="margin-top: 85px;">
+                                <span class="py-2 text-dark">123 Main Street, Cityville, CA </span>
+                                <span class="py-2 block ">(555) 123-4567</span>
+                                <span class="py-2 text-secondary">Monday - Saturday: 9:00 AM - 6:00 PM</span>
+                            </div>
+                            <div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-blue rounded-bottom">
+                                <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="blog-item position-relative bg-light rounded shadow-lg">
+                            <img src="img/branch/img-2.jpg" class="img-fluid w-100 rounded-top" alt="">
+                            <span class="position-absolute px-3 py-2 bg-blue text-white rounded font-bold" style="top: -28px; right: 20px;">North Branch</span>
+                            <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
+                            </div>
+                            <div class="blog-content text-center position-relative px-3 font-bold py-2" style="margin-top: 85px;">
+                                <span class="py-2 text-dark"> 456 North Avenue, Townsville, NY </span>
+                                <span class="py-2 block "> (555) 987-6543</span>
+                                <span class="py-2 text-secondary">Monday - Saturday: 9:00 AM - 8:00 PM</span>
+                            </div>
+                            <div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-blue rounded-bottom">
+                                <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="blog-item position-relative bg-light rounded shadow-lg">
+                            <img src="img/branch/img-3.jpg" class="img-fluid w-100 rounded-top" alt="">
+                            <span class="position-absolute px-3 py-2 bg-blue text-white rounded font-bold" style="top: -28px; right: 20px;">South Branch</span>
+                            <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
+                            </div>
+                            <div class="blog-content text-center position-relative px-3 font-bold py-2" style="margin-top: 85px;">
+                                <span class="py-2 text-dark">789 South Street, Villagetown, TX </span>
+                                <span class="py-2 block ">(555) 555-7890</span>
+                                <span class="py-2 text-secondary">Monday - Saturday: 8:30 AM - 5:30 PM</span>
+                            </div>
+                            <div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-blue rounded-bottom">
+                                <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+
+        <!-- Team Start -->
+        <div class="container-fluid py-5 mb-5 team">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Our Team</h5>
+                    <h1>Meet our expert Team</h1>
+                </div>
+                <div class="owl-carousel team-carousel wow fadeIn" data-wow-delay=".5s">
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team/team-1.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Olivia Walker</h4>
+                                    <p class="m-0">Social Media Specialist</p>
+                                    <hr>
+                                    <p class="m-0">Responsible for online presence, She ensures SaintAvenue stays connected with customers through engaging innonative social campaigns.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team/team-2.png" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Firenze Higa Putra</h4>
+                                    <p class="m-0">Founder & Creative Designer</p>
+                                    <hr>
+                                    <p class="m-0">As the lead, He leads the design team to create unique accessories. He combines imagination and technical expertise to bring inspiration to each product.</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team/team-3.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Aria Johnson</h4>
+                                    <p class="m-0">Marketing Manager</p>
+                                    <hr>
+                                    <p class="m-0">In charge of marketing strategy, She brings extensive experience in shaping brand image and creating connections with customers.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team/team-4.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Caleb Rodriguez</h4>
+                                    <p class="m-0">Purchasing & Supply Expert</p>
+                                    <hr>
+                                    <p class="m-0">As head of purchasing, He manages relationships with suppliers and ensures that every product meets the highest quality standards.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team/team-5.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Ethan Harper</h4>
+                                    <p class="m-0">Customer Service Expert</p>
+                                    <hr>
+                                    <p class="m-0">With a focus on customer satisfaction, He helps customers with questions, requests, and ensures every shopping experience is positive and satisfying.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid testimonial py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Our Testimonial</h5>
+                    <h1>Our Customer Saying!</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay=".5s">
+                    <div class="testimonial-item border p-4">
+                        <div class="d-flex align-items-center">
+                            <div class="">
+                                <img src="img/testimonial-1.jpg" alt="">
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="text-secondary">Customer Name</h4>
+                                <p class="m-0 pb-3">Profession</p>
+                                <div class="d-flex pe-5">
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top mt-4 pt-3">
+                            <p class="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item border p-4">
+                        <div class=" d-flex align-items-center">
+                            <div class="">
+                                <img src="img/testimonial-2.jpg" alt="">
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="text-secondary">Customer Name</h4>
+                                <p class="m-0 pb-3">Profession</p>
+                                <div class="d-flex pe-5">
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top mt-4 pt-3">
+                            <p class="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item border p-4">
+                        <div class=" d-flex align-items-center">
+                            <div class="">
+                                <img src="img/testimonial-3.jpg" alt="">
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="text-secondary">Customer Name</h4>
+                                <p class="m-0 pb-3">Profession</p>
+                                <div class="d-flex pe-5">
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top mt-4 pt-3">
+                            <p class="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item border p-4">
+                        <div class=" d-flex align-items-center">
+                            <div class="">
+                                <img src="img/testimonial-4.jpg" alt="">
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="text-secondary">Customer Name</h4>
+                                <p class="m-0 pb-3">Profession</p>
+                                <div class="d-flex pe-5">
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top mt-4 pt-3">
+                            <p class="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonial End -->
+
+
+        <!-- Contact Start -->
+        <div class="container-fluid py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Get In Touch</h5>
+                    <h1 class="mb-3">Contact for any query</h1>
+                </div>
+                <div class="contact-detail position-relative p-5">
+                    <div class="row g-5 mb-5 justify-content-center">
+                        <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".3s">
+                            <div class="d-flex bg-light p-3 rounded">
+                                <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 44px; height: 44px;">
+                                    <i class="fas fa-map-marker-alt text-white"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h5 class="text-primary">Address</h5>
+                                    <a href="https://goo.gl/maps/Zd4BCynmTb98ivUJ6" target="_blank" class="h5">MVR, Cileungsi</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".5s">
+                            <div class="d-flex bg-light p-3 rounded">
+                                <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 44px; height: 44px;">
+                                    <i class="fa fa-phone text-white"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h5 class="text-primary">Call Us</h5>
+                                    <a class="h5" href="tel:+0123456789" target="_blank">+62 858 9431 0722</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".7s">
+                            <div class="d-flex bg-light p-3 rounded">
+                                <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 44px; height: 44px;">
+                                    <i class="fa fa-envelope text-white"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h5 class="text-primary">Email Us</h5>
+                                    <a class="h5" href="mailto:info@example.com" target="_blank">firenzehiga@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-5">
+                        <div class="col-lg-6 col-sm-3 wow fadeIn wrapper" data-wow-delay=".3s">
+                            <div class="p-5 h-100 rounded contact-map ">
+                                <iframe class="ratio" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d247.7921502353387!2d106.9637247645521!3d-6.435849435952924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1701181648030!5m2!1sid!2sid" width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                        </div>
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay=".5s">
+                            <div class="p-5 rounded contact-form">
+                                <div class="mb-4">
+                                    <input type="text" class="form-control border-0 py-3" placeholder="Your Name">
+                                </div>
+                                <div class="mb-4">
+                                    <input type="email" class="form-control border-0 py-3" placeholder="Your Email">
+                                </div>
+                                <div class="mb-4">
+                                    <input type="text" class="form-control border-0 py-3" placeholder="Project">
+                                </div>
+                                <div class="mb-4">
+                                    <textarea class="w-100 form-control border-0 py-3" rows="6" cols="10" placeholder="Message"></textarea>
+                                </div>
+                                <div class="text-start">
+                                    <button class="btn btn-blue text-white py-3 px-5 " type="button">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <!-- Contact End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer bg-blue wow fadeIn" data-wow-delay=".3s">
+            <div class="container pt-5 pb-4">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <a href="index.html">
+                            <h1 class="text-white fw-bold d-block">High<span class="text-secondary">Tech</span> </h1>
+                        </a>
+                        <p class="mt-4 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere delectus qui placeat inventore consectetur repellendus optio debitis.</p>
+                        <div class="d-flex hightech-link">
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-facebook-f text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-twitter text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-instagram text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Short Link</a>
+                        <div class="mt-4 d-flex flex-column short-link">
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>About us</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contact us</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Our Services</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Our Projects</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Latest Blog</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Contact Us</a>
+                        <div class="text-white mt-4 d-flex flex-column contact-link">
+                            <a href="#" class="pb-3 text-light border-bottom border-secondary"><i class="fas fa-map-marker-alt text-secondary me-2"></i> Mutiara Venezia Residence, Cileungsi, Bogor</a>
+                            <a href="#" class="py-3 text-light border-bottom border-secondary"><i class="fas fa-phone-alt text-secondary me-2"></i> +62 858 9431 0722</a>
+                            <a href="#" class="py-3 text-light border-bottom border-secondary"><i class="fas fa-envelope text-secondary me-2"></i> firenzehiga@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="text-light mt-5 mb-4">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start">
+                        <span class="text-light"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>Your Site Name</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-secondary btn-square rounded-circle back-to-top"><i class="fa fa-arrow-up text-white" ></i></a>
+
+        <script src="assets/plugins/global/plugins.bundle.js"></script>
+		<script src="assets/plugins/custom/prismjs/prismjs.bundle.js"></script>
+		<script src="assets/js/scripts.bundle.js"></script>
+		<!--end::Global Theme Bundle-->
+		<!--begin::Page Vendors(used by this page)-->
+		<script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
+		<!--end::Page Vendors-->
+		<!--begin::Page Scripts(used by this page)-->
+		<script src="assets/js/pages/crud/datatables/advanced/column-visibility.js"></script>
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
