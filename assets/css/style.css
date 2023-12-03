@@ -21,11 +21,11 @@
   transition: 0.5s;
 }
 .btn-lblue {
-  background-color: #6365f8;
+  background-color: #19506c;
   color: white;
 }
 .btn-lblue:hover {
-  background-color: #3437f8;
+  background-color: #6365f8;
   color: white;
 }
 
@@ -600,14 +600,14 @@
   margin: 0 5px;
   width: 15px;
   height: 15px;
-  background: #c1dad0;
+  background: #19506c;
   border-radius: 15px;
   transition: 0.5s;
 }
 
 .testimonial-carousel .owl-dot.active {
   width: 30px;
-  background: var(--bs-primary);
+  background: var(--bs-secondary);
 }
 
 .testimonial-carousel .owl-item.center {
@@ -681,15 +681,16 @@
   color: #19506c;
 }
 
+.btn-blue:hover {
+  background-color: #19506c;
+  opacity: 0.5;
+}
+
 .text-blue {
   color: #19506c;
 }
 
 
-.btn-blue:hover {
-  background-color: #19506c;
-  opacity: 0.5;
-}
 
 .bg-blue {
   background-color: #19506c;
