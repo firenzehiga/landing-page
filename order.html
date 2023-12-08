@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>SaintAvenue - Accessories Solutions Website</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+		<link href="assets/css/style.bundle.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="assets/bootstrap-icon/font.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="assets/bootstrap-icon/font.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="assets/css/style.css" rel="stylesheet">
+    </head>
+
+    <body style="background-image: url('assets/media/bg/bg-3.jpg');">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <div class="container-fluid bg-blue">
+            <div class="container">
+                <nav class="navbar navbar-dark navbar-expand-lg py-0">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="text-white fw-bold d-block">Saint<span class="text-secondary">Avenue</span> </h1>
+                    </a>
+                    <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <a href="offer.html" class="nav-item nav-link">Offer</a>
+                            <a href="product.html" class="nav-item nav-link active">Product</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                                <div class="dropdown-menu rounded">
+                                    <a href="branch.html" class="dropdown-item">Our Branch</a>
+                                    <a href="team.html" class="dropdown-item">Our Team</a>
+                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <div class="container-fluid project py-3">
+            <div class="container">
+                <div class="card card-custom gutter-b col-lg-12">
+                    <!--begin::Header-->
+
+                    <div class="card-body">
+                        <!--begin::Section-->
+                        <h4 class="mb-5 font-weight-bold text-dark">Review your Order and Confirm</h4>
+                        <h6 class="font-weight-bolder mb-3">Delivery Address :</h6>
+                        <form class="row g-3 needs-validation" novalidate>
+                            <div class="col-md-4">
+                                <label for="validationCustom01" class="form-label">First name</label>
+                                <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="validationCustom02" class="form-label">Last name</label>
+                                <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="validationCustomUsername" class="form-label">Username</label>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                                <div class="invalid-feedback">
+                                Please choose a username.
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="validationCustom03" class="form-label">City</label>
+                                <input type="text" class="form-control" id="validationCustom03" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid city.
+                            </div>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="validationCustom04" class="form-label">State</label>
+                                <select class="form-select" id="validationCustom04" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option>...</option>
+                                </select>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="validationCustom05" class="form-label">Zip</label>
+                                <input type="text" class="form-control" id="validationCustom05" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid zip.
+                            </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                    <label class="form-check-label" for="invalidCheck">
+                                    Agree to terms and conditions
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                            </div>
+                        </form>        
+                            <br>
+
+
+                            </div>
+                            <!--begin::Shopping Cart-->
+                            <h6 class="font-weight-bolder mb-3 " style="margin-left: 4%;">Order Details:</h6>
+                            <div class="text-dark-50 line-height-lg">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th class="pl-0 font-weight-bold text-center text-muted text-uppercase">No</th>
+                                                <th class="pl-0 font-weight-bold text-center text-muted text-uppercase">Product</th>
+                                                <th class="text-right font-weight-bold text-muted text-uppercase">Qty</th>
+                                                <th class="text-right font-weight-bold text-muted text-uppercase">Price</th>
+                                                <th class="text-right pr-0 font-weight-bold text-muted text-uppercase">Subtotal</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                           
+                                                <!--begin::Cart Content-->
+                                                <tr>
+                                                    <td class="text-center align-middle font-weight-bolder">
+                                                    </td>
+                                                    <td class=" text-center font-weight-bolder">
+
+                                </div>
+                                <a href="#" class="text-dark text-hover-primary">.</a>
+                                </td>
+                                <td class="text-right align-middle">
+
+                                    <span class="mr-2 font-weight-bolder">.</span>
+
+                                </td>
+                                <td class="text-right align-middle font-weight-bolder font-size-h7">.</td>
+                                <td class="text-right align-middle font-weight-bolder font-size-h7">.</td>
+                                <td></td>
+                                </tr>
+
+                            <tr>
+                                <td colspan="3"></td>
+                                <td class="font-weight-bolder font-size-h7 text-right">Subtotal Product :</td>
+                                <td class="font-weight-bolder font-size-h7 text-right">pee></td>
+                                <td></td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td colspan="3" class="border-0 pt-0"></td>
+                                <td class="border-0 pt-0 font-weight-bolder text-right">Delivery Fees :</td>
+                                <td class="border-0 pt-0 font-weight-bolder text-right ">Rp.<span id="ongkir"></span></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="border-0 pt-0"></td>
+                                <td class="border-0 pt-0 font-weight-bolder font-size-h4 text-right">Total :</td>
+                                <td class="border-0 pt-0 font-weight-bolder font-size-h4 text-success text-right">Rp.<span id="jumlah_harga"></span></td>
+                            </tr>
+                            <!--end::Cart Footer-->
+                            </tbody>
+                            </table>
+
+
+
+
+
+                            <div class="separator separator-dashed my-5"></div>
+
+
+                            <div class="container-fluid d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
+                                <div class="d-flex align-items-center flex-wrap mr-1">
+                                    <div class="d-flex flex-column">
+                                        <div class="d-flex align-items-center font-weight-bold">
+                                            <a href="" class="text-muted text-hover-primary opacity-75 hover-opacity-100"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-toolbar mt-3 mb-3">
+
+                                    <button type="submit" class="btn btn-success font-weight-bolder px-8">Confirm Checkout</button>
+
+
+                                </div>
+                            </div>
+                            </div>
+                            </form>
+                            <!--end::Shopping Cart-->
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- Product End -->
+
+
+    
+
+                        
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer bg-blue wow fadeIn" data-wow-delay=".3s">
+            <div class="container pt-5 pb-4">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <a href="index.html">
+                            <h1 class="text-white fw-bold d-block">Saint<span class="text-secondary">Avenue</span> </h1>
+                        </a>
+                        <div class="d-flex hightech-link">
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-facebook-f text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-twitter text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-instagram text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Short Link</a>
+                        <div class="mt-4 d-flex flex-column short-link">
+                            <a href="about.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>About us</a>
+                            <a href="contact.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contact us</a>
+                            <a href="offer.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Offer</a>
+                            <a href="branch.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Branch</a>
+                            <a href="product.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Product</a>
+                            <a href="testimonial.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Testimonial</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Contact Us</a>
+                        <div class="text-white mt-4 d-flex flex-column contact-link">
+                            <a href="#" class="pb-3 text-light border-bottom border-secondary"><i class="fas fa-map-marker-alt text-secondary me-2"></i> Mutiara Venezia Residence, Cileungsi, Bogor</a>
+                            <a href="#" class="py-3 text-light border-bottom border-secondary"><i class="fas fa-phone-alt text-secondary me-2"></i> +62 858 9431 0722</a>
+                            <a href="#" class="py-3 text-light border-bottom border-secondary"><i class="fas fa-envelope text-secondary me-2"></i> firenzehiga@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="text-light mt-5 mb-4">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start">
+                        <span class="text-light"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>SaintAvenue | Firenze Higa</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-secondary btn-square rounded-circle back-to-top"><i class="fa fa-arrow-up text-white"></i></a>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
